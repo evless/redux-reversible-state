@@ -1,0 +1,32 @@
+{
+  "name": "redux-reversible-state",
+  "version": "0.0.1",
+  "description": "Undo-redo funcionality for redux",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Evgeniy Grachev (https://twitter.com/_evless)",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jest.config.ts"
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "1.6.1",
+    "@types/jest": "27.0.3",
+    "@types/lodash": "4.14.172",
+    "jest": "27.4.5",
+    "jest-config": "27.4.5",
+    "prettier": "2.3.2",
+    "ts-jest": "27.0.4",
+    "ts-node": "10.2.0",
+    "typescript": "4.3.5"
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "redux": "4.1.2"
+  },
+  "peerDependencies": {
+    "lodash": ">= 4.17.0",
+    "redux": ">= 4.1.0"
+  }
+}
