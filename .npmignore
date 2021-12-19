@@ -2,3 +2,5 @@ src
 tsconfig.json
 yarn.lock
 .prettierrc
+jest.config.ts
+__tests__

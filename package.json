@@ -6,6 +6,13 @@
   "types": "dist/index.d.ts",
   "author": "Evgeniy Grachev (https://twitter.com/_evless)",
   "license": "MIT",
+  "keywords": [
+    "redux",
+    "undo",
+    "redo",
+    "undo-redo",
+    "time machine"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest --config jest.config.ts"
