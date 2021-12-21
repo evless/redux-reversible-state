@@ -1,6 +1,6 @@
 {
   "name": "redux-reversible-state",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Undo-redo funcionality for redux",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,10 +27,6 @@
     "ts-jest": "27.0.4",
     "ts-node": "10.2.0",
     "typescript": "4.3.5"
-  },
-  "dependencies": {
-    "lodash": "4.17.21",
-    "redux": "4.1.2"
   },
   "peerDependencies": {
     "lodash": ">= 4.17.0",
